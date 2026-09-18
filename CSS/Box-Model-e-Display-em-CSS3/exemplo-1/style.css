@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 8px solid;
+    height: 500px;
+    width: 600px;
+    margin-left: 10px;
+}
+h1{
+    border: 4px double blue;
+    display: inline-block;
+    padding: 10px;
+}
