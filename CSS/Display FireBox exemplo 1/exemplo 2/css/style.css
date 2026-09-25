@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    height: 500px;
+    justify-content: space-between;
+}
+header{
+    background-color: aqua;
+    border: 2px solid;
+    height: 20%;
+}
+.menu{
+    display: flex;
+    height: 65%;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border: 2px solid;
+    width: 80%;
+}
+aside{
+    background-color: blueviolet;
+    border: 2px solid;
+    width: 20%;
+    order: -1;
+}
+footer{
+    background-color: red;
+    border: 2px solid;
+    height: 15%;
+}
